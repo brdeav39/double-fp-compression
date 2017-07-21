@@ -2,14 +2,19 @@
 ###### Programs for researching various methods of compression on doubles
 
 ## How to run
-All data is contained in /data/ and is currently compressed by fpc.
-In order to decompress these files to obtain the raw data, do this:
+Some data is contained in /data/ and is currently compressed by fpc.
+These datasets and fpc source code were obtained from Martin
+Burtscher's site http://cs.txstate.edu/~burtscher/research/FPC/
+In order to decompress these datasets to obtain the raw data, do this:
 
-1. Compile fpc.c
-`cc -O3 fpc.c -o fpc`
+**1. Compile fpc.c**
 
-2. Run fpc on compressed data
-`./fpc < program_name.trace.fpc > output_file_name.out`
+`gcc -O3 fpc.c -o fpc`
 
-3. Run compression program
+**2. Run fpc on compressed data**
+
+`./fpc < dataset_name.trace.fpc > output_file_name.out`
+
+**3. Run compression program**
+
 `g++ -std=c++11 program.cpp`
