@@ -2,9 +2,10 @@
 ###### Programs for researching various methods of compression on doubles
 
 ## How to run
-Some data is contained in /data/ and is currently compressed by fpc.
+Test data is contained in /data/ and is currently compressed by fpc.
 These datasets and fpc source code were obtained from Martin
 Burtscher's site http://cs.txstate.edu/~burtscher/research/FPC/
+
 In order to decompress these datasets to obtain the raw data, do this:
 
 **1. Compile fpc.c**
