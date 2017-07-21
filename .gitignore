@@ -1,0 +1,8 @@
+# delta compression gitignore
+
+
+a.out
+
+fpc
+
+file.out
